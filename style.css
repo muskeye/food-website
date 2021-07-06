@@ -125,7 +125,9 @@ h2{
     padding: 0 10px;
     border-radius: 30px;
 }
-
+.item-txt h3{
+    font-size: 24px;
+}
 /* contact section */
 h3{
     font-size: 32px;
