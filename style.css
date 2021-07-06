@@ -1,0 +1,188 @@
+body{
+    font-family: 'PT Sans', sans-serif;
+}
+section{
+    height: 100vh;
+    padding-bottom: 150px;
+}
+.top-section{
+    display: flex;
+}
+h1{
+    font-size: 50px;
+    line-height: 1em;
+    color: gray;
+}
+span{
+    color: #dd628b;
+}
+.button{
+    text-decoration: none;
+    line-height: 5em;
+    font-size: 25px;
+    background: linear-gradient(#680829, #e2a1b7);
+    padding: 20px 40px;
+    border-radius: 30px;
+    color: white;
+    font-weight: 700;
+}
+
+/* top section */
+.top-text{
+     width:40%;
+     float: left;
+     margin-left: 5%;
+     padding-left: 2%;
+     margin-top: 60px;
+}
+.top-text p{
+    color: grey;
+}
+
+.top-img{
+    width: 50%;
+}
+.top-img img{
+     height: 90%;
+    margin-left: 50px;
+    margin-top: 50px;
+}
+
+/* mid section */
+h2{
+    font-size: 40px;
+    color: grey;
+}
+.mid-section{
+    display: flex;
+    background-image: url(image/Frame\ 59.jpg);
+    background-repeat: no-repeat;
+}
+.mid-img{
+    width: 50%;
+
+}
+.mid-img img{
+    height: 100%;
+    margin-left: 15%;
+    margin-top: 7%;
+}
+.mid-text{
+    width: 50%;
+    margin-top: 10%;
+    margin-left: 25%;
+    margin-right: 15%;
+}
+.mid-text p{
+    color: grey;
+}
+
+/* item section */
+
+.item-header{
+    text-align: center;
+}
+.item-header h2{
+    color: gray;
+    font-size: 40px;
+}
+.item-header p{
+    margin:0 350px;
+    color: gray;
+}
+
+.recipe-item{
+    display: flex;
+    margin-top: 50px;
+    margin-left: 75px;
+}
+.recipe-item1{
+    width: 33.33%;
+}
+.recipe-item2{
+    width: 33.33%;
+}
+.recipe-item3{
+    width: 33.33%;
+}
+.recipe-item .item{
+    margin: 0 27px;
+    box-shadow: 10px 7px 15px gray;
+    border-radius: 30px;
+    height: 450px;
+    width: 350px;
+}
+.recipe-item .item img{
+    height: 50%;
+    width: 90%;
+    padding-left: 5px;
+    padding-top: 5px;
+    margin: 10px 10px;
+    border-radius: 30px;
+   
+}
+.recipe-item .item-txt{
+    padding: 0 10px;
+    border-radius: 30px;
+}
+
+/* contact section */
+h3{
+    font-size: 32px;
+}
+.contact{
+    display: flex;
+    color: grey;
+    background-color: black;
+    height: 380px;
+}
+.adress{
+    width: 50%;
+    text-align: center;
+    font-size: 24px;
+    margin-top: 75px;
+}
+.adress-contact{
+    margin-top: 70px;
+}
+.adress-item{
+    margin-top: 70px;
+}
+
+.contact-form{
+    text-align: center;
+    font-size: 24px;
+    margin-top: 12%;
+}
+.contact-form input{
+    background-color: black;
+    border: none;
+    margin: 15px 25px;
+    border-bottom: 1px solid white;
+    text-align: center;
+    outline: none;
+    font-size: 24px;
+    width: 30%
+}
+.form3 input{
+    width: 68%;
+}
+
+/* footer section */
+footer{
+    margin-top: 80px;
+    text-align: center;
+    height: 250px;
+    color: gray;
+    background-color: black;
+}
+.final-section{
+    margin-bottom: -100px;
+}
+footer h3{
+    font-size: 30px;
+}
+
+.footer-text{
+    padding-top: 30px;
+}
